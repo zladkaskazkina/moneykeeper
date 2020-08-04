@@ -3,7 +3,7 @@
     <div class="app-page">
       <div>
         <div class="page-title">
-          <h3>Новая запись</h3>
+          <h3>New input</h3>
         </div>
 
         <form class="form">
@@ -11,37 +11,37 @@
             <select>
               <option>name cat</option>
             </select>
-            <label>Выберите категорию</label>
+            <label>Choose category</label>
           </div>
 
           <p>
             <label>
               <input class="with-gap" name="type" type="radio" value="income" />
-              <span>Доход</span>
+              <span>Income</span>
             </label>
           </p>
 
           <p>
             <label>
               <input class="with-gap" name="type" type="radio" value="outcome" />
-              <span>Расход</span>
+              <span>Expenses</span>
             </label>
           </p>
 
           <div class="input-field">
             <input id="amount" type="number" />
-            <label for="amount">Сумма</label>
-            <span class="helper-text invalid">amount пароль</span>
+            <label for="amount">Total</label>
+            <span class="helper-text invalid">amount password</span>
           </div>
 
           <div class="input-field">
             <input id="description" type="text" />
-            <label for="description">Описание</label>
-            <span class="helper-text invalid">description пароль</span>
+            <label for="description">Description</label>
+            <span class="helper-text invalid">description password</span>
           </div>
 
           <button class="btn waves-effect waves-light" type="submit">
-            Создать
+            Create
             <i class="material-icons right">send</i>
           </button>
         </form>

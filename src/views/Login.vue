@@ -23,8 +23,8 @@
         </div>
 
         <p class="center">
-          Нет аккаунта?
-          <a href="/">Зарегистрироваться</a>
+          Don't have an account?
+          <a href="/">Register</a>
         </p>
       </div>
     </form>
